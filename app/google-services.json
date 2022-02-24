@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "740301541504",
+    "project_id": "wordsearch-sreco",
+    "storage_bucket": "wordsearch-sreco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740301541504:android:13307cce353182a07b9665",
+        "android_client_info": {
+          "package_name": "com.example.wordsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740301541504-gchfbhr2uhcctgb1th42h1u8k8hhmosa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArXtlWZnUj_kc8w8x68b1QCMWfPKxllPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740301541504-gchfbhr2uhcctgb1th42h1u8k8hhmosa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

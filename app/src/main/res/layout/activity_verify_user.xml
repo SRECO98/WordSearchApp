@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VerifyUser"
+    android:background="@drawable/background_register">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/aclonica"
+        android:text="WordSearch App"
+        android:textColor="#ECC60A"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/textViewVerify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="You email is not verified!"
+        android:textColor="#DF0303"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonVerify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="22dp"
+        android:text="VERIFY"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:backgroundTint="#ff000000" />
+
+    <Button
+        android:id="@+id/buttonPlaySolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="22dp"
+        android:text="PLAY SOLO"
+        android:textSize="20sp"
+        app:backgroundTint="#ff000000" />
+
+    <Button
+        android:id="@+id/buttonVsPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="22dp"
+        android:text="PLAY VS PLAYER"
+        android:textSize="20sp"
+        app:backgroundTint="#ff000000" />
+
+    <Button
+        android:id="@+id/buttonRankSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="22dp"
+        android:text="RANK SYSTEM"
+        android:textSize="20sp"
+        app:backgroundTint="#ff000000" />
+
+    <Button
+        android:id="@+id/buttonSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="22dp"
+        android:text="SIGN OUT"
+        android:textSize="20sp"
+        app:backgroundTint="#ff000000" />
+
+
+    <Button
+        android:id="@+id/buttonExitGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="22dp"
+        android:text="EXIT GAME"
+        android:textSize="20sp"
+        app:backgroundTint="#ff000000" />
+
+</LinearLayout>
